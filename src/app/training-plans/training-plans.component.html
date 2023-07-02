@@ -1,0 +1,17 @@
+<table class="table caption-top table-striped">
+  <caption>List of Training Plans</caption>
+  <thead class="table-dark">
+  <tr>
+    <th scope="col">#</th>
+    <th scope="col">Name</th>
+    <th scope="col">Description</th>
+  </tr>
+  </thead>
+  <tbody class="table-group-divider">
+  <tr *ngFor="let plan of loadedPlans">
+    <th scope="row">{{plan.id}}</th>
+    <td>{{plan.name}}</td>
+    <td>{{plan.description}}</td>
+  </tr>
+  </tbody>
+</table>
