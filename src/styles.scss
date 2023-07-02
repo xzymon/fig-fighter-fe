@@ -1,1 +1,32 @@
 /* You can add global styles to this file, and also import other style files */
+.navbar__section {
+  flex-wrap: wrap;
+  align-items: unset;
+}
+
+.nav-tabs {
+  display: block;
+  margin: 0;
+  width: 100%;
+  height: 4.4rem;
+}
+
+.nav-tabs__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: normal;
+  margin: 0 7.8rem;
+}
+
+.nav-tabs__list-button {
+  height: 4.4rem;
+  padding: 0 1rem;
+  text-align: center;
+  border-bottom: 0.2rem solid transparent;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  cursor: pointer;
+  transition: 300ms all ease-in-out;
+}
